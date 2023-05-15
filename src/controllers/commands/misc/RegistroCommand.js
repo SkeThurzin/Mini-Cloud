@@ -44,7 +44,7 @@ export default class Registro extends Command {
         { $set: { registro: true, coins: atualCoins + 150 } }
       );
       interaction.followUp({
-        content: `${this.emoji.yes} ${this.emoji.seta} Obá! Você teve um registo bem-sucedido no meu sistema. Para começar essa grande aventura, utilize o comando \`- /how to play -\` !`,
+        content: `${this.emoji.yes} ${this.emoji.seta} Obá! Você teve um registo bem-sucedido em meu sistema. Para começar essa grande aventura, utilize o comando \`- /how to play -\` !`,
       });
     }
   }
